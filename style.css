@@ -105,6 +105,9 @@ body {
 
 .sidebar-heading {
   font-size: 2.8rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .nav {
@@ -116,6 +119,9 @@ body {
 .nav-item {
   font-size: 22px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 /* HEADER */
@@ -146,24 +152,12 @@ body {
   height: 28px;
 }
 
-.search-icon {
-  width: 28px;
-  height: 28px;
-  background-color: var(--color-dark);
-}
-
 .user-control {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   grid-area: 1 / 2 / 2 / 3
-}
-
-.bell-icon {
-  width: 28px;
-  height: 28px;
-  background-color: var(--color-dark);
 }
 
 .user-greeting {
@@ -216,7 +210,10 @@ body {
   align-self: flex-end;
   width: 50%;
   height: 30px;
-  background-color: var(--color-dark);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
 }
 
 /* SIDE CONTENT */
